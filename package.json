@@ -1,17 +1,19 @@
 {
-  "name": "tarefa-grunt",
+  "name": "secret-key-generator",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Gerador de SECRET_KEY para Django",
+  "main": "index.html",
   "scripts": {
-    "grunt": "grunt",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "description": "",
+  "license": "MIT",
   "devDependencies": {
     "grunt": "^1.6.1",
     "grunt-contrib-less": "^3.0.0",
-    "grunt-contrib-sass": "^2.0.0"
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-contrib-watch": "^1.1.0",
+    "less": "^4.2.2",
+    "watch": "^0.13.0"
   }
 }
