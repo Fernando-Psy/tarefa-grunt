@@ -1,0 +1,9 @@
+$corDeFundo: #000;
+$corDoTexto: #fff;
+$corDaFonte: #000;
+
+body {
+    background-color: $corDeFundo;
+    color: $corDoTexto;
+    font-family: $corDaFonte;
+}
